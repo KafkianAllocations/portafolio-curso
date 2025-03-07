@@ -43,7 +43,7 @@ Este sitio fue hecho usando [GitHub Pages](https://kafkianallocations.github.io/
 
 
 > [!NOTE]
-> El objetivo principal de este proyecto ha sido desarrollar habilidades en HTML y CSS, a demás de subir el portafolio a la web utilizando Github Pages o Vercel. Este proyecto ha sido crado solamente como ejemplo para el cuso, faltan cambios por desarrollar :keyboard: .
+> El objetivo principal de este proyecto ha sido desarrollar habilidades en HTML y CSS, a demás de subir el portafolio a la web utilizando Github Pages o Vercel. Este proyecto ha sido creado solamente como ejemplo para el cuso, faltan cambios por desarrollar :keyboard: .
 
 
 
