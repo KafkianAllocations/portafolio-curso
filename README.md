@@ -12,6 +12,24 @@
 
 * Flex-box
 
+
+ [GitHub Pages]([https://pages.github.com/](https://kafkianallocations.github.io/portafolio-curso/)).
+
+
+
+
+
+
+Este sitio fue hecho usando [GitHub Pages](https://kafkianallocations.github.io/portafolio-curso/).
+
+
+
+
+
+
+
+
+
 ## Hecho por:
 
 ###Matiaelos, para el programa Oracle Next education en Alura.
