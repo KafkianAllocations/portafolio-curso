@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --color-primario: #757575;
+    --color-secundario: #DDF796;
+    --color-terciario: #F3FE7E;
+    --color-hover: #979797;
+
+    --fuente-montserrat: 'Montserrat', sans-serif;
+    --fuente-krona: 'Krona One', sans-serif;
+} /* Variables de colores y fuentes */
+
+
+/* Reset CSS */
+*{
+    margin: 0; /* Margen */
+    padding: 0; /* Relleno */
+}
+
+
+body{
+    background-color: var(--color-primario); /* Color de fondo */
+    color: var(--color-secundario); /* Color de texto */
+    box-sizing: border-box; /* Caja de modelo de caja*/
+
+}
+
+.header{
+    padding: 2% 0% 0% 15%;
+
+}
+
+.header__menu{
+    display: flex;
+    gap: 80px;
+
+} /* Clase de menú de cabecera */
+
+.header__menu__link{
+    font-family: var(--fuente-montserrat); /* Familia de fuente */
+    font-size: 1.5rem; /* Tamaño de fuente */
+    font-weight: 600;
+    color: var(--color-terciario); /* Color de texto */
+    text-decoration: none; /* Decoración de texto */
+
+} /* Clase de enlace de menú de cabecera */
+
+.presentacion{
+    display: flex; /* Flexbox */
+    align-items: center; /* Alineación de elementos */
+    padding: 6% 15%; /* Margen */
+    justify-content: space-between; /* Justificación de elementos */;
+    gap: 82px;
+
+} /* Clase de presentación */
+
+.presentacion__contenido{
+    width: 50%; /* Ancho */
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+} /* Clase de contenido de presentación */
+
+.presentacion__contenido__titulo{
+    font-size: 2.25rem; /* Tamaño de fuente título */
+    font-family: var(--fuente-krona); /* Familia de fuente */
+} /* Clase de título de contenido de presentación */
+
+
+.titulo-destaque{
+    color: var(--color-terciario);
+} /* Clase de título destacado */
+
+
+.presentacion__contenido__texto{
+    font-size: 1.5rem; /* Tamaño de fuente párrafo */
+    font-family: var(--fuente-montserrat); /* Familia de fuente párrafo*/
+} /* Clase de texto de contenido de presentación */
+
+.presentacion__enlaces{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+
+} /* Clase de enlaces de presentación */
+
+.presentacio__enlaces__subtiutulo{
+    font-family: var(--fuente-krona);
+    font-size: 1.5re;
+    font-weight: 400;
+} /* Clase de subtítulo de enlaces de presentación */
+
+
+.presentacion__enlaces__link{
+    width: 50%; 
+    text-align: center;
+    padding: 21.5px 0;
+    border-radius: 8px;
+    font-family: var(--fuente-montserrat);
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--color-secundario);
+    border: 2px solid var(--color-terciario);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+} /* Clase de enlace de presentación */
+
+
+.presentacion__enlaces__link:hover{
+    padding: 3%;
+    cursor: pointer;
+    background-color: var(--color-hover);
+} /* Clase de enlace de presentación al pasar el mouse */
+
+
+.presentacion__imagen{
+    width: 50%;
+
+} /* Clase de imagen de presentación */
+
+
+.footer{
+    background-color: var(--color-terciario);
+    padding: 24px;
+    color: var(--color-primario);
+    text-align: center;
+    font-family: var(--fuente-montserrat);
+    font-size: 1.5rem;
+    font-weight: 400;
+} /* Clase de pie de página */
+
+
+@media  (max-width: 1200px){
+
+    .header{
+        padding: 10%;
+    }
+
+    .header__menu{
+        justify-content: center;
+    }
+
+
+    .presentacion{
+        flex-direction: column-reverse;
+        padding: 5%;
+        /* padding: 13.75% 7.5%; */
+
+    }
+
+    .presentacion__contenido{
+        width: auto; 
+    }
+
+    
+} 
