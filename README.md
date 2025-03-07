@@ -1,4 +1,4 @@
-# Portfolio ¡Hola, bienvenido a mi proyecto de portafolio!
+# ¡Hola, bienvenido a mi proyecto de portafolio!
 
 
 ![Screenshot 2025-03-07 at 03-04-36 Portafolio](https://github.com/user-attachments/assets/519094c1-aadb-4295-b5b0-d21156529f1a)
