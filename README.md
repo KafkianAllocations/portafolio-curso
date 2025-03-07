@@ -43,7 +43,7 @@ Este sitio fue hecho usando [GitHub Pages](https://kafkianallocations.github.io/
 
 
 > [!NOTE]
-> El objetivo principal de este desafío ha sido desarrollar habilidades en lógica de programación, éste proyecto esta en su fase de protipo
+> El objetivo principal de este proyecto ha sido desarrollar habilidades en HTML y CSS, a demás de subir el portafolio a la web utilizando Github Pages o Vercel. Este proyecto ha sido generado solamente como ejemplo para el curso.
 >  y faltan cambios por hacer y diseñar :keyboard: .
 
 
